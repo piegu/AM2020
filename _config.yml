@@ -7,7 +7,7 @@
 # https://learnxinyminutes.com/docs/yaml/
 
 title: AM2020
-description: Blog do curso de Machine e Deep Learning da Faculdade UnB Gama (FGA) em 2020
+description: Blog da parte Deep Learning do curso 2020 de Machine Learning da Faculdade UnB Gama (FGA)
 github_username: piegu
 # you can comment the below line out if your repo name is not different than your baseurl
 github_repo: "AM2020"
