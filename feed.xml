@@ -1,4 +1,112 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://piegu.github.io/AM2020/feed.xml" rel="self" type="application/atom+xml" /><link href="https://piegu.github.io/AM2020/" rel="alternate" type="text/html" /><updated>2020-03-12T02:19:13-05:00</updated><id>https://piegu.github.io/AM2020/feed.xml</id><title type="html">AM2020</title><subtitle>Blog da parte Deep Learning do curso 2020 de Machine Learning da Faculdade UnB Gama (FGA)</subtitle><entry><title type="html">Test Markdown Post</title><link href="https://piegu.github.io/AM2020/markdown/2020/01/14/test-markdown-post.html" rel="alternate" type="text/html" title="Test Markdown Post" /><published>2020-01-14T00:00:00-06:00</published><updated>2020-01-14T00:00:00-06:00</updated><id>https://piegu.github.io/AM2020/markdown/2020/01/14/test-markdown-post</id><content type="html" xml:base="https://piegu.github.io/AM2020/markdown/2020/01/14/test-markdown-post.html">&lt;h1 id=&quot;example-markdown-post&quot;&gt;Example Markdown Post&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://piegu.github.io/AM2020/feed.xml" rel="self" type="application/atom+xml" /><link href="https://piegu.github.io/AM2020/" rel="alternate" type="text/html" /><updated>2020-03-12T02:19:36-05:00</updated><id>https://piegu.github.io/AM2020/feed.xml</id><title type="html">AM2020</title><subtitle>Blog da parte Deep Learning do curso 2020 de Machine Learning da Faculdade UnB Gama (FGA)</subtitle><entry><title type="html">Neural Networks A Brief History</title><link href="https://piegu.github.io/AM2020/2020/03/12/neural-networks-a-brief-history.html" rel="alternate" type="text/html" title="Neural Networks A Brief History" /><published>2020-03-12T00:00:00-05:00</published><updated>2020-03-12T00:00:00-05:00</updated><id>https://piegu.github.io/AM2020/2020/03/12/neural-networks-a-brief-history</id><content type="html" xml:base="https://piegu.github.io/AM2020/2020/03/12/neural-networks-a-brief-history.html">&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://piegu.github.io/AM2020/&quot;&gt;&lt;span class=&quot;underline&quot;&gt;Home&lt;/span&gt;&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://piegu.github.io/AM2020/course/&quot;&gt;&lt;span class=&quot;underline&quot;&gt;Curso&lt;/span&gt;&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h1 id=&quot;redes-neurais-uma-breve-história&quot;&gt;Redes neurais: uma breve história&lt;/h1&gt;
+
+&lt;p&gt;Fonte: tradução de “&lt;a href=&quot;https://github.com/fastai/fastbook/blob/master/01_intro.ipynb&quot;&gt;&lt;span class=&quot;underline&quot;&gt;Your deep learning journey&lt;/span&gt;&lt;/a&gt;” do &lt;a href=&quot;https://github.com/fastai/fastbook&quot;&gt;&lt;span class=&quot;underline&quot;&gt;livro Fastai&lt;/span&gt;&lt;/a&gt; (Jeremy Howard e Sylvain Gugger).&lt;/p&gt;
+
+&lt;h2 id=&quot;modelo-matemático-de-um-neurônio-artificial&quot;&gt;Modelo matemático de um neurônio artificial&lt;/h2&gt;
+
+&lt;p&gt;Em 1943, &lt;strong&gt;Warren McCulloch&lt;/strong&gt;, um neurofisiologista, e &lt;strong&gt;Walter Pitts&lt;/strong&gt;, (logician), se uniram para desenvolver &lt;strong&gt;um modelo matemático de um neurônio artificial&lt;/strong&gt;. Eles declararam que:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;em&gt;Devido ao caráter “tudo ou nada” da atividade nervosa, os eventos neurais e as relações entre eles podem ser tratados por meio da lógica proposicional. Verifica-se que o comportamento de toda rede pode ser descrito nesses termos&lt;/em&gt;. (Pitts and McCulloch; A Logical Calculus of the Ideas Immanent in Nervous Activity)&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Eles perceberam que &lt;strong&gt;um modelo simplificado de um neurônio real poderia ser representado usando adição e limiares simples,&lt;/strong&gt; como mostrado aqui:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/img/2020-03-12-neural-networks-a-brief-history/media/image1.png&quot; alt=&quot;Natural and artificial neurons&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;o-perceptron-a-capacidade-de-aprender&quot;&gt;O Perceptron: a capacidade de aprender&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Frank Rosenblatt&lt;/strong&gt; desenvolveu em 1956 o neurônio artificial para lhe dar a &lt;strong&gt;capacidade de aprender&lt;/strong&gt;. Mais importante ainda, ele trabalhou na construção do primeiro dispositivo que realmente usava esses princípios: The Mark I &lt;strong&gt;Perceptron&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Rosenblatt escreveu sobre este trabalho: “&lt;strong&gt;estamos prestes a testemunhar o nascimento de tal máquina - uma máquina capaz de perceber, reconhecer e identificar seu entorno sem nenhum treinamento ou controle humano&lt;/strong&gt;”. O Perceptron foi construído e conseguiu reconhecer formas simples.&lt;/p&gt;
+
+&lt;h2 id=&quot;livro-perceptrons-início-do-primeiro-inverno-da-ia&quot;&gt;Livro “Perceptrons”: início do primeiro inverno da IA&lt;/h2&gt;
+
+&lt;p&gt;Um professor do MIT chamado &lt;strong&gt;Marvin Minsky&lt;/strong&gt; (que ficou atrás de Rosenblatt na mesma escola!) junto com &lt;strong&gt;Seymour Papert&lt;/strong&gt; escreveu um &lt;strong&gt;livro, chamado “Perceptrons”&lt;/strong&gt;, sobre a invenção de Rosenblatt. &lt;strong&gt;Eles mostraram que uma única camada desses dispositivos não conseguiu aprender algumas funções matemáticas simples e críticas (como o XOR).&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;No mesmo livro, eles também mostraram que o uso de várias camadas dos dispositivos permitiria resolver essas limitações. Infelizmente, apenas a primeira dessas idéias foi amplamente reconhecida, como resultado da comunidade acadêmica global quase inteiramente desistindo de redes neurais pelas próximas duas décadas.&lt;/p&gt;
+
+&lt;h2 id=&quot;redes-neurais&quot;&gt;Redes neurais&lt;/h2&gt;
+
+&lt;p&gt;Talvez o trabalho mais crucial em redes neurais nos últimos 50 anos seja o multi-volumes &lt;em&gt;Parallel Distributed Processing&lt;/em&gt; (PDP), lançado em 1986 pela MIT Press. Capítulo 1 estabelece uma esperança semelhante ao mostrado por Rosenblatt:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;em&gt;… as pessoas são mais espertos do que os computadores de hoje porque o cérebro emprega uma arquitetura computacional básico que é mais adequado para lidar com um aspecto central das informações naturais processamento de tarefas que as pessoas são tão boas. … introduziremos uma estrutura computacional para modelar processos cognitivos que parece … mais próxima do que outras estruturas ao estilo de computação, como pode ser feito pelo cérebro.&lt;/em&gt; (PDP, capítulo 1)&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;A premissa que o PDP está usando aqui é que &lt;strong&gt;os programas de computador tradicionais funcionam de maneira muito diferente dos cérebros&lt;/strong&gt;, e pode ser por isso que os programas de computador (naquele momento) foram tão ruins em fazer coisas que os cérebros acham fáceis (como reconhecer objetos nas fotos). Os autores afirmam que a abordagem PDP é “mais próxima do que outras estruturas” de como o cérebro funciona e, portanto, pode ser mais capaz de lidar com esse tipo de tarefa.&lt;/p&gt;
+
+&lt;p&gt;De fato, a abordagem apresentada no PDP é muito semelhante à usada nas redes neurais atuais. O livro definia “Parallel Distributed Processing” como exigindo:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;Um conjunto de &lt;em&gt;processing units&lt;/em&gt;&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;Um &lt;em&gt;estado de ativação (state of activation)&lt;/em&gt;&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;Uma &lt;em&gt;função de saída&lt;/em&gt; (&lt;em&gt;output function)&lt;/em&gt; para cada unidade&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;Um &lt;em&gt;padrão de conectividade&lt;/em&gt; (&lt;em&gt;pattern of connectivity)&lt;/em&gt; entre unidades&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;Uma &lt;em&gt;regra de propagação&lt;/em&gt; (&lt;em&gt;propagation rule)&lt;/em&gt; para propagar padrões de atividades através da rede de conectividades&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;Uma &lt;em&gt;regra de ativação&lt;/em&gt; (&lt;em&gt;activation rule)&lt;/em&gt; para combinar as entradas que colidem com uma unidade com o estado atual dessa unidade para produzir um novo nível de ativação para a unidade.&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;Uma &lt;em&gt;regra de aprendizado&lt;/em&gt; (&lt;em&gt;learning rule)&lt;/em&gt; segundo a qual os padrões de conectividade são modificados pela experiência.&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;Um &lt;em&gt;ambiente&lt;/em&gt; (&lt;em&gt;environment&lt;/em&gt; )no qual o sistema deve operar.&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Veremos no Fastai Book que redes neurais lidam com cada um desses requisitos.&lt;/p&gt;
+
+&lt;h2 id=&quot;década-de-1980-primeiras-aplicações-de-nn&quot;&gt;Década de 1980: primeiras aplicações de NN&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Na década de 1980, a maioria dos modelos foi construída com uma segunda camada de neurônios&lt;/strong&gt;, evitando assim o problema identificado por Minsky (esse era seu “padrão de conectividade entre unidades”, para usar a estrutura acima).&lt;/p&gt;
+
+&lt;p&gt;E, de fato, as redes neurais foram amplamente usadas nas décadas de 80 e 90 para projetos reais e práticos.&lt;/p&gt;
+
+&lt;p&gt;No entanto, novamente um equívoco das questões teóricas impediu o campo. &lt;strong&gt;Em teoria, adicionar apenas uma camada extra de neurônios era suficiente para permitir que qualquer modelo matemático se aproximasse dessas redes neurais, mas, na prática, essas redes eram muitas vezes grandes e lentas demais para serem úteis.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;mais-camadas&quot;&gt;Mais camadas!&lt;/h2&gt;
+
+&lt;p&gt;Embora os pesquisadores tenham mostrado há 30 anos que, &lt;strong&gt;para obter um bom desempenho prático, você precisa usar ainda mais camadas de neurônios&lt;/strong&gt;, é apenas na última década que isso tem sido mais amplamente apreciado.&lt;/p&gt;
+
+&lt;p&gt;As redes neurais estão finalmente alcançando seu potencial, graças ao entendimento de usar mais camadas e à capacidade aprimorada de fazê-lo, graças a melhorias no hardware do computador, aumentos na disponibilidade de dados e ajustes algorítmicos que permitem que as redes neurais sejam treinadas mais rapidamente e mais facilmente.&lt;/p&gt;
+
+&lt;p&gt;Agora temos o que Rosenblatt havia prometido: “uma máquina capaz de perceber, reconhecer e identificar seu entorno sem nenhum treinamento ou controle humano”.&lt;/p&gt;</content><author><name></name></author><summary type="html">Home Curso</summary></entry><entry><title type="html">Test Markdown Post</title><link href="https://piegu.github.io/AM2020/markdown/2020/01/14/test-markdown-post.html" rel="alternate" type="text/html" title="Test Markdown Post" /><published>2020-01-14T00:00:00-06:00</published><updated>2020-01-14T00:00:00-06:00</updated><id>https://piegu.github.io/AM2020/markdown/2020/01/14/test-markdown-post</id><content type="html" xml:base="https://piegu.github.io/AM2020/markdown/2020/01/14/test-markdown-post.html">&lt;h1 id=&quot;example-markdown-post&quot;&gt;Example Markdown Post&lt;/h1&gt;
 
 &lt;h2 id=&quot;basic-setup&quot;&gt;Basic setup&lt;/h2&gt;
 
